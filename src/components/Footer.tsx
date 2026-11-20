@@ -1,0 +1,3 @@
+import Link from 'next/link';
+import {config} from '@/lib/config';
+export default function Footer(){const s=config();return <footer className="footer"><div className="shell footer-row"><div><strong>{s.sellerName||'Caderno de FluÃªncia Leitora'}</strong>{s.sellerDocument&&<div>{s.sellerDocument}</div>}<div>Material digital para apoio Ã  alfabetizaÃ§Ã£o.</div>{s.supportEmail&&<a href={'mailto:'+s.supportEmail}>{s.supportEmail}</a>}</div><div className="footer-links"><Link href="/termos">Termos de compra</Link><Link href="/privacidade">Privacidade</Link><Link href="/suporte">Suporte e garantia</Link></div></div></footer>;}
