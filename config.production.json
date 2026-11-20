@@ -1,0 +1,8 @@
+{
+  "APP_URL": "https://clubeoficial.com.br",
+  "SELLER_NAME": "Clube Pequenos Leitores",
+  "SUPPORT_EMAIL": "contato@clubeoficial.com.br",
+  "RESEND_FROM_EMAIL": "Clube Pequenos Leitores <contato@clubeoficial.com.br>",
+  "STORE_DATA_DIR": "data",
+  "PORT": 3000
+}
